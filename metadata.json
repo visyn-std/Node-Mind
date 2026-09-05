@@ -1,0 +1,6 @@
+{
+  "name": "NodeMind - Sơ Đồ Tư Duy Node-Base",
+  "description": "Interactive node-based mind mapping web application featuring drag-and-drop workflow, right-click actions with search, white & #19B5FE aesthetic, detail inspector, minimap, and JSON import/export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
