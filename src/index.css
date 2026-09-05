@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #19B5FE;
+    --primary-hover: #1499d6;
+    --primary-active: #0f80b5;
+    --primary-light: #f0f9ff;
+    --primary-border: #bae6fd;
+    --canvas-bg: #FFFFFF;
+    --grid-dot: #E2E8F0;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #FFFFFF;
+    color: #0f172a;
+  }
+}
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #19B5FE;
+}
+
+/* Canvas dot grid pattern matching White & #19B5FE Interface */
+.canvas-grid-dots {
+  background-color: #FFFFFF;
+  background-image: radial-gradient(#cbd5e1 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+}
+
+.canvas-grid-lines {
+  background-color: #FFFFFF;
+  background-size: 24px 24px;
+  background-image: 
+    linear-gradient(to right, rgba(226, 232, 240, 0.8) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(226, 232, 240, 0.8) 1px, transparent 1px);
+}
+
